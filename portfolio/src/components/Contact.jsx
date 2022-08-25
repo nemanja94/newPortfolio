@@ -24,21 +24,21 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
-          className="p-2 bg-[#ccd6f6]"
+          className="p-2 my-2 bg-slate-500 text-slate-100 text-bold text-xl border-2 border-slate-600 focus:border-pink-600 focus:duration-300 duration-300 outline-none rounded-md"
         />
         <input
           type="email"
           placeholder="Email"
           name="email"
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="p-2 my-2 bg-slate-500 text-slate-100 text-bold text-xl border-2 border-slate-600 focus:border-pink-600 focus:border-pink-600 focus:duration-300 outline-none rounded-md"
         />
         <textarea
           name="message"
           rows="10"
           placeholder="Message"
-          className="bg-[#ccd6f6] p-2"
+          className="p-2 my-2 bg-slate-500 text-slate-100 text-bold text-xl border-2 border-slate-600 focus:border-pink-600 focus:border-pink-600 focus:duration-300 outline-none rounded-md"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 hover:duration-300 duration-300 px-4 py-3 my-8 mx-auto flex items-center">
           Let's Collaborate
         </button>
       </form>
